@@ -7,7 +7,6 @@
   "author": "Iván Sánchez Ortega <ivan@sanchezortega.es>",
   "license": "BSD",
   "scripts": {
-    "install": "npm run rollup",
     "rollup": "npx rollup -c rollup.config.js",
     "lint": "eslint src/",
     "lintfix": "eslint src/ --fix",
