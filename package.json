@@ -8,7 +8,7 @@
   "license": "BSD",
   "scripts": {
     "install": "npm run rollup",
-    "rollup": "rollup -c rollup.config.js",
+    "rollup": "npx rollup -c rollup.config.js",
     "lint": "eslint src/",
     "lintfix": "eslint src/ --fix",
     "test": "rollup -c rollup.config.js && jasmine"
