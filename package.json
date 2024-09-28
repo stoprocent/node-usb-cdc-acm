@@ -2,10 +2,12 @@
   "name": "usb-cdc-acm",
   "version": "0.1.2",
   "description": "Userspace javascript implementation of a USB CDC ACM driver, on top of libusb",
-  "main": "src/usb-cdc-acm.js",
+  "main": "dist/usb-cdc-acm.cjs.js",
+  "module": "src/usb-cdc-acm.js",
   "author": "Iván Sánchez Ortega <ivan@sanchezortega.es>",
   "license": "BSD",
   "scripts": {
+    "install": "npm run rollup",
     "rollup": "rollup -c rollup.config.js",
     "lint": "eslint src/",
     "lintfix": "eslint src/ --fix",
